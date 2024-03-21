@@ -1,0 +1,66 @@
+/* Style for the form container */
+.container {
+ 
+  max-width: 800px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  height: 100px;
+
+}
+
+/* Style for the card */
+.card {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form labels */
+.form-label {
+  color: #495057; /* Label text color */
+}
+
+/* Style for the form inputs */
+.form-control {
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style for the form validation error messages */
+p.error-message {
+  color: crimson;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Style for the checkbox label */
+.form-check-label {
+  font-size: 14px;
+}
+
+/* Style for the submit button */
+.btn-success {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.btn-success:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the link */
+.text-body {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Hover effect for the link */
+.text-body:hover {
+  text-decoration: underline;
+}

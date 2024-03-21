@@ -1,0 +1,55 @@
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    
+ <form class="form-login" > 
+        
+    <form #loginForm="ngForm" (ngSubmit)="loginvalidate(loginForm)" class="login-container" >
+        <h2 class="name">&nbsp;&nbsp;&nbsp;&nbsp;Login</h2>
+        
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        : <input type="email" name="email" ngModel #email="ngModel" required minlength="6" maxlength="40" style="margin-top: 10vh;">
+        <br /><br />
+        <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> : <input type="password" name="password"
+            ngModel #password="ngModel" required minlength="8" maxlength="15"><br /><br>
+
+       
+         <button class="buttonL" type="submit" >Login</button> 
+        
+        <div class="fgp">
+         <a>forgot password? </a><a href="register">  New-register</a>
+        </div>
+        <div>
+            <div *ngIf="email.errors?.['required'] && email.touched">
+                <p>Please enter valid email</p>
+            </div>
+            <div *ngIf="email.errors?.['minlength'] && email.touched">
+                <p>Please enter at least 6 characters for email</p>
+            </div>
+            <div *ngIf="email.errors?.['required'] && email.touched">
+                <p>Please enter valid email max 15 characters</p>
+            </div>
+            <div *ngIf="password.errors?.['minlength'] && password.touched">
+                <p>Please enter at least 8 characters for password</p>
+            </div>
+            <div *ngIf="password.errors?.['required'] && password.touched">
+                <p>Please enter valid password</p>
+            </div>
+            
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+

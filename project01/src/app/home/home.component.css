@@ -1,0 +1,142 @@
+.button-container {
+  display: flex;
+  justify-content: space-around; /* Distribute buttons evenly */
+  margin: 20px auto; /* Add some margin for aesthetics */
+}
+
+.custom-button {
+  text-decoration: none; /* Remove default link underline */
+  padding: 15px 30px; /* Increase padding for bigger size */
+  font-size: 18px; /* Increase font size */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  color: #a51f7d; /* Set default text color to white */
+  transition: all 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.custom-button:hover {
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  transform: translateY(-2px); /* Add slight vertical movement on hover */
+}
+
+/* Define different colors for each button (replace with your desired colors) */
+.button-color1 {
+  background-color: #701d2b; /* Pinkish color */
+}
+
+.button-color2 {
+  background-color: #246e87; /* Light blue color */
+}
+
+.button-color3 {
+  background-color: #44401b; /* Light yellow color */
+}
+
+.button-color4 {
+  background-color: #161614; /* Light green color */
+}
+
+
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow on hover */
+  transform: scale(1.05); /* Scale the card on hover */
+}
+
+.price {
+color: grey;
+font-size: 22px;
+}
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card button:hover {
+opacity: 0.7;
+}
+/* </style> */
+
+
+
+.footer {
+background-color: #f5f5f5;
+padding: 20px 0;
+color: #333;
+}
+
+.footer .container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer h2 {
+margin-bottom: 10px;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer li {
+margin-bottom: 5px;
+}
+
+.footer a {
+color: #333;
+text-decoration: none;
+}
+
+.footer a:hover {
+color: #000;
+}
+
+.footer .footer-bottom {
+text-align: center;
+margin-top: 20px;
+}
+
+.footer .social-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer .social-links a {
+margin: 0 5px;
+}
+
+.footer .social-links i {
+font-size: 20px;
+}
+.footer-top {
+display: flex; /* Make the footer-top a flex container */
+/* justify-content: space-between; /* Align sections horizontally */
+}
+
+.footer-section {
+flex: 1; /* Make all sections share available space equally */
+padding: 10px;
+} 
+
+
+/* <head> */
+/*</style> */

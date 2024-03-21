@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 10px;
+}
+.login-container {
+    margin-left: 80vh;
+    margin-right: 80vh;
+    height: 65vh;
+    justify-self: center;
+    background-color: transparent;
+    border: black;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+.form-login{
+    height: 91vh;
+    background-image:url(https://www.jaindairy.com/wp-content/uploads/2020/06/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.name{
+    margin-left: 30%;
+    margin-right: 70%;
+    
+}
+.buttonL{
+    margin-top: 5vh;
+    margin-left: 30%;
+    margin-right: 70%;
+}
+.fgp{
+    margin-top: 5vh;
+    margin-left: 15%;
+    cursor: pointer;
+    
+}
